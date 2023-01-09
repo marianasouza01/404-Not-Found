@@ -89,3 +89,18 @@ h3 {
   text-align: center;
   color: #BDBDBD;
 }
+
+@media screen and (max-width: 480px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h3{
+    margin: 20px 218px 904px 24px;
+  }
+  .scarecrow img{
+    width: 286px;
+    height: 238px;
+  }
+}
