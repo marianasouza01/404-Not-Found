@@ -8,6 +8,10 @@ body {
   height: 1080px;
 }
 
+.conteudo{
+  display: flex;
+}
+
 h3 {
   margin: 40px 1230px 200px 77px;
   font-family: 'Inconsolata';
@@ -24,15 +28,8 @@ h3 {
   margin: auto 118.78px 367.57px 77px;
 }
 
-.scarecrow img,p {
-  float: left;
-}
-
-
 .scarecrow h1{
-  width: 586px;
-  height: 190px;
-  margin: 200px 119px 625px auto;
+  margin: auto 119px 625px auto;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -40,6 +37,11 @@ h3 {
   letter-spacing: -0.035cm;
   color: #333333;
   line-height: 95px;
+  position: absolute;
+  width: 586px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
 }
 
 .scarecrow p{
@@ -90,17 +92,34 @@ h3 {
   color: #BDBDBD;
 }
 
-@media screen and (max-width: 480px){
-  .container{
+@media only screen and (max-width: 600px){
+  .conteudo{
+    float: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  h3{
-    margin: 20px 218px 904px 24px;
-  }
   .scarecrow img{
     width: 286px;
     height: 238px;
+    position: absolute;
+    left: 11.73%;
+    right: 11.78%;
+    top: 11.49%;
+    bottom: 63.44%;
+  }
+  .scarecrow h1{
+    position: absolute;
+    width: 350px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035cm;
+    color: #333333;
   }
 }
