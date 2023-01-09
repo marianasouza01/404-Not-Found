@@ -32,7 +32,7 @@ h3 {
 .scarecrow h1{
   width: 586px;
   height: 190px;
-  margin: 265px 119px 625px auto;
+  margin: 200px 119px 625px auto;
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
@@ -52,17 +52,40 @@ h3 {
   letter-spacing: -0.035cm;
   color: #4F4F4F;
   position: absolute;
-  width: 370px;
+  width: 381px;
   height: 108px;
-  left: 741px;
-  top: 550px;
+  left: 736px;
+  top: 491px;
 }
 
-.button {
+.button button{
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035cm;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #333333;
   position: absolute;
   width: 216px;
-  height: 64px;
+  height: 68px;
   left: 740px;
   top: 663px;
-  background: #333333;
+}
+
+.footer p{
+  position: absolute;
+  width: 400px;
+  height: 17px;
+  left: 577px;
+  top: 1039px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
 }
