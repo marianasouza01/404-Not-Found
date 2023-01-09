@@ -28,6 +28,7 @@ h3 {
   float: left;
 }
 
+
 .scarecrow h1{
   width: 586px;
   height: 190px;
@@ -38,5 +39,30 @@ h3 {
   font-size: 64px;
   letter-spacing: -0.035cm;
   color: #333333;
+  line-height: 95px;
 }
 
+.scarecrow p{
+  margin: auto 323px auto auto;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035cm;
+  color: #4F4F4F;
+  position: absolute;
+  width: 370px;
+  height: 108px;
+  left: 741px;
+  top: 550px;
+}
+
+.button {
+  position: absolute;
+  width: 216px;
+  height: 64px;
+  left: 740px;
+  top: 663px;
+  background: #333333;
+}
